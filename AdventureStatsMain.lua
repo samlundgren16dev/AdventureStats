@@ -51,12 +51,6 @@ mainFrame.currencySilver:SetPoint("TOPLEFT", mainFrame.currencyGold, "BOTTOMLEFT
 mainFrame.currencyCopper = mainFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 mainFrame.currencyCopper:SetPoint("TOPLEFT", mainFrame.currencySilver, "BOTTOMLEFT", 0, -15)
 
--- Total items collected
--- mainFrame.totalItemsCollected = mainFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
--- mainFrame.totalItemsCollected:SetPoint("TOPLEFT", mainFrame.totalPlayerKills, "BOTTOMLEFT", 0, -115)
--- mainFrame.totalItemsCollected:SetText("|cFF00FF00Total Items Collected: " .. (AdventureStatsDB.itemsCollected or "0"))
-
-
 -- Set display values when the frame is shown
 mainFrame:SetScript("OnShow", function()
     PlaySound(808)
