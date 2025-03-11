@@ -82,6 +82,7 @@ eventListenerFrame:SetScript("OnEvent", function(self, event)
     end
 end)
 
+-- Map Button
 local addon = LibStub("AceAddon-3.0"):NewAddon("AdventureStats")
 AdventureStatsMinimapButton = LibStub("LibDBIcon-1.0", true)
 
